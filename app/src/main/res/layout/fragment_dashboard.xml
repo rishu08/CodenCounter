@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FAFAFA"
+    tools:context=".Dashboard">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#e6e5e5"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INDIA"
+            android:textSize="32dp"
+            android:textAlignment="center"
+            android:textColor="#000"/>
+
+<HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:scrollbarStyle="insideOverlay"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp">
+
+        <ImageButton
+            android:id="@+id/police"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            android:adjustViewBounds="false"
+            android:src="@drawable/police100"
+            android:background="@drawable/background_dashboard"
+            android:cropToPadding="false"
+            android:scaleType="fitXY"
+            />
+
+        <ImageButton
+            android:id="@+id/ambulance"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            android:adjustViewBounds="false"
+            android:src="@drawable/ambulance102"
+
+            android:background="@drawable/background_dashboard"
+            android:scaleType="fitXY"
+           />
+
+        <ImageButton
+            android:id="@+id/fireBrigade"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            android:adjustViewBounds="false"
+            android:src="@drawable/fire101"
+
+            android:background="@drawable/background_dashboard"
+            android:scaleType="fitXY"
+           />
+
+        <ImageButton
+            android:id="@+id/women"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            android:adjustViewBounds="false"
+            android:src="@drawable/women"
+
+            android:background="@drawable/background_dashboard"
+            android:scaleType="centerCrop"
+          />
+
+        <ImageButton
+            android:id="@+id/disaster"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            android:adjustViewBounds="false"
+            android:src="@drawable/disaster"
+
+            android:background="@drawable/background_dashboard"
+            android:scaleType="fitXY"
+          />
+
+        <ImageButton
+            android:id="@+id/child_care"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            android:adjustViewBounds="false"
+            android:src="@drawable/child"
+
+            android:background="@drawable/background_dashboard"
+            android:scaleType="fitXY"
+            />
+
+
+    </LinearLayout>
+
+</HorizontalScrollView>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/boundry">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OPTIONS"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="22dp"
+            android:textStyle="italic|bold"/>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/custombutton1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:background="#fff"
+                android:layout_weight="1"
+                android:text="URGENT HELP"/>
+
+
+            <Button
+                android:id="@+id/custombutton2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:text="DANGER"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/custombutton3"
+                android:layout_width="0dp"
+                android:background="#fff"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="HELP"/>
+
+
+            <Button
+                android:id="@+id/custombutton4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:text="PANIC"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/custombutton5"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:text="MY LOCATION"/>
+
+
+            <Button
+                android:id="@+id/custombutton6"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:textStyle="bold"
+                android:text="SAFE"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#e6e5e5">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SAFETY TIPS"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="20dp"/>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:background="@drawable/background_dashboard"
+                    android:textStyle="italic"
+                    android:textColor="#000"
+                    android:text=" Be aware of your surroundings. Don’t let your guard down"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:textStyle="italic"
+                    android:background="@drawable/background_dashboard"
+                    android:textColor="#000"
+                    android:text=" Please trust and make good use of your ‘gut feel’ or ‘intuition’ or ‘sixth sense’ in each and every place and situation"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:textStyle="italic"
+                    android:background="@drawable/background_dashboard"
+                    android:textColor="#000"
+                    android:text=" Don’t take eve teasing lightly"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="9dp"
+                    android:padding="10dp"
+                    android:background="@drawable/background_dashboard"
+                    android:textColor="#000"
+                    android:text="As much as possible avoid late night travel using public transport"           />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textStyle="italic"
+                    android:padding="10dp"
+                    android:layout_marginLeft="9dp"
+                    android:background="@drawable/background_dashboard"
+                    android:textColor="#000"
+                    android:text="While using 2 wheeler be sure to wear helmet at all times (especially at night). Don’t stop for any stranger"           />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="9dp"
+                    android:background="@drawable/background_dashboard"
+                    android:textColor="#000"
+                    android:text=" While travelling at night don’t keep your phone in your hand"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="10dp"
+                    android:layout_height="match_parent"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="9dp"
+                    android:background="@drawable/background_dashboard"
+                    android:textColor="#000"
+                    android:text="After getting dropped don’t stay outside to take a call"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textStyle="italic"
+                    android:padding="10dp"
+                    android:layout_marginLeft="9dp"
+                    android:background="@drawable/background_dashboard"
+                    android:textColor="#000"
+                    android:text=" If you feel that someone is following you immediately rush to a crowded place and if need to be don’t be embarrassed to shout and gain attention"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="9dp"
+                    android:background="@drawable/background_dashboard"
+                    android:textColor="#000"
+                    android:text="In case you are in a sticky situation don’t be afraid to use anything in your hand to defend yourself"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textStyle="italic"
+                    android:padding="10dp"
+                    android:layout_marginLeft="9dp"
+                    android:background="@drawable/background_dashboard"
+                    android:textColor="#000"
+                    android:text="DCP Night Duty Delhi Police Hotline – +91 875 0870 099"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="9dp"
+                    android:background="@drawable/background_dashboard"
+                    android:textColor="#000"
+                    android:text="Punching in the stomach will leave the attacker breathless and unable to chase you"
+                    />
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+</ScrollView>

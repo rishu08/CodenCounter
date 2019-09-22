@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/side_nav_bar"
+    android:layout_height="match_parent"
+    tools:context=".MapLoader">
+
+    <!-- TODO: Update blank fragment layout -->
+   <LinearLayout
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:weightSum="5">
+
+       <EditText
+
+           android:id="@+id/et"
+           android:hint="  Enter Mobile no.:"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="2dp"
+           android:layout_width="0dp"
+           android:paddingLeft="5dp"
+           android:background="@drawable/background_dashboard"
+           android:layout_height="50dp"
+           android:layout_weight="4"/>
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="0dp"
+            android:text="TRACK"
+            android:background="@drawable/background_dashboard"
+            android:layout_height="50dp"
+            android:layout_weight="1"/>
+
+   </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="70dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:text="My Contacts"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_marginTop="105dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+</FrameLayout>
